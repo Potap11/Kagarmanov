@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+body{
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    margin-left: 110px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+li a{
+    font-family: 'Roboto';
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffff50;
+}
+main{
+    display: flex;
+    gap: 565px;
+}
+h1{
+    font-family: 'Roboto';
+    font-size: 36px;
+    color: #ffffffe5;
+}
+.text{
+    width: 423px;
+    font-family: 'Roboto';
+    color: #ffffffd2;
+    padding-top: 21px;
+    line-height: 150%;
+}
+.rol{
+    font-family: 'Roboto';
+    color: #ffffffe5;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+.roli{
+    font-family: 'Roboto';
+    color: #ffffffe5;
+    display: flex;
+    gap: 63px;
+    padding-bottom: 33px;
+}
+.roli p{
+    margin: 0;
+    padding: 0;
+    line-height: 150%;
+}
+.poster{
+    display: flex;
+    gap: 30px;
+    color: #ffffffe5;
+    font-family: 'Roboto';
+}
+.poster h3{
+
+    margin: 0;
+}
+.poster img{
+    width: 462px;
+    height: 623px;
+}
+.group{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
